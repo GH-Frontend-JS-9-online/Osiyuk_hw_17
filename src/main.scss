@@ -1,0 +1,16 @@
+@import "./components/utils/libs";
+@import "./components/utils/vars";
+@import "./components/utils/mixins";
+@import "./components/utils/fonts";
+@import "./components/header/header";
+@import "./components/navbar/navbar";
+@import "./components/second-nav/second-nav";
+@import "./components/project-block/project";
+@import "./components/AllProjects/AllProjects";
+
+body{
+  background-color: $main-color;
+}
+main{
+  display: flex;
+}

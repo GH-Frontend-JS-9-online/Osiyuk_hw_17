@@ -1,0 +1,54 @@
+.projectBlock{
+  margin-top: 20px;
+  border-radius: 5px;
+  background-color: #3a3e52;
+  height: 93px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 45px;
+  margin-right: 24px;
+  width: 95%;
+  border-left: 4px solid #2196f3;
+  .h3{
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.32px;
+    margin:0;
+  }
+  .span{
+    color: #9ea3b4;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.28px;
+  }
+  .project__assignedTo{
+    display: flex;
+    align-items: center;
+    img{
+      margin-right: 15px;
+      width: 42px;
+      height: 42px;
+    }
+  }
+  .project__progres{
+    display: flex;
+    align-items: center;
+    .project__progresBar{
+      width: 237px;
+      height: 8px;
+      border-radius: 4px;
+      background-color: rgba(62%, 64%, 71%, 0.3);
+      margin-left: 16px;
+      .project__progresLine{
+        height: 8px;
+        border-radius: 4px;
+        background-color: #2196f3;
+        width: 70%;
+      }
+    }
+  }
+}

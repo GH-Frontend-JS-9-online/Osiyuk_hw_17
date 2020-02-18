@@ -1,0 +1,24 @@
+.project-wrap{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  ::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+  }
+  .project-block__wrap{
+    height: 73vh;
+      overflow-y: auto;
+  }
+  .project__create{
+    align-self: center;
+    width: 20%;
+    margin-top: 1vh;
+    height: 41px;
+    border-radius: 5px;
+    background-color: $second-color;
+    border: none;
+    color: #fff;
+    font-size: $mainFontSize;
+  }
+}
